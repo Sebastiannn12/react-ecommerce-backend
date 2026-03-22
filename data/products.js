@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    name: "Gaming Laptop",
+    name: "Gaming Laptop Pred",
     image: "/images/product1.jpg",
     price: 63000,
     oldPrice: 70000,
@@ -69,6 +69,16 @@ const products = [
     discount: 40,
     category: "Electronics"
   },
+  {
+    id: 8,
+    name: "Gaming Laptop RUG",
+    image: "/images/product8.jpg",
+    price: 72989,
+    oldPrice: 86700,
+    rating: 5,
+    discount: 30,
+    category: "Electronics"
+  }
   
 ];
 

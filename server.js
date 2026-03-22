@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const products = require("./data/products");
@@ -6,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.use('/images', express.static(path.join(__dirname, '../react-ecommerce/public/images')));
 app.get("/api/products", (req, res) => {
   res.json(products);
 });
