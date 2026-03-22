@@ -92,7 +92,7 @@ const products = [
   {
     id: 10,
     name: "ROG Earbuds",
-    image: "/images/product9.jpg",
+    image: "/images/product10.jpg",
     price: 4450,
     oldPrice: 77590,
     rating: 4,
