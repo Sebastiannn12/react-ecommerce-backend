@@ -94,7 +94,7 @@ const products = [
     name: "ROG Earbuds",
     image: "/images/product10.jpg",
     price: 4450,
-    oldPrice: 77590,
+    oldPrice: 7590,
     rating: 4,
     discount: 37,
     category: "Accessories"
