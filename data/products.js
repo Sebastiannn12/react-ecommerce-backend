@@ -78,6 +78,16 @@ const products = [
     rating: 5,
     discount: 30,
     category: "Electronics"
+  },
+  {
+    id: 9,
+    name: "Royal Cladge Keyboard",
+    image: "/images/product9.jpg",
+    price: 1240,
+    oldPrice: 1754,
+    rating: 5,
+    discount: 27,
+    category: "Accessories"
   }
   
 ];
